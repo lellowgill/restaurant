@@ -14,11 +14,19 @@ class Restaurant:
     def get_total_cost(self):
         index = 0
         total_cost = 0
-    while index < len(self.items):
-        self.total_cost += self.items[index], ["cost"]
-
-
         
+    while index < len(self.items):
+        self.total_cost += self.items[index], ["total_cost"]
+        index += 1
+
+first_order = order_up(True)
+
+
+
+
+
+
+
        
 
 
